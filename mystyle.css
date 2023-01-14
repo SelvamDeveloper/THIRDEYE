@@ -9,3 +9,15 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+body{
+    background-color: black;
+}
+
+.main{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.49), rgb(0, 0, 0)), url(img/mainbg.png);
+    background-position: center;
+    background-size: cover;
+}
