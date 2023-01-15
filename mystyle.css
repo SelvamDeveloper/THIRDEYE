@@ -21,3 +21,21 @@ body{
     background-position: center;
     background-size: cover;
 }
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.nav ul {
+    display: flex;
+}
+.nav ul li{
+    padding: 0 10px;
+}
+.contant{
+    max-width: 600px;
+    padding: 0 5%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+}
