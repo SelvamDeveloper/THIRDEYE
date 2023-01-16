@@ -86,7 +86,7 @@ body{
     background-position: center;
     background-size: cover;
     border-radius: 10px;
-    transition: 5s;
+    transition: 3s;
 }
 .card:nth-child(2){
     background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.574)), url(img/03.jpg);
@@ -145,7 +145,6 @@ body{
 }
 
 .text button:hover .fa-solid{
-    display: inline-block;
     left: 0px;
     opacity: 1;
 
@@ -155,8 +154,99 @@ body{
 
 .s-3{
     width: 100%;
-    height: 40vh;
+    height: 60vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.528), rgba(0, 0, 0, 0.357)), url(img/01.jpg);
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+.s-3 p{
+    font-size: 15px;
+    width: 450px;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+}
+
+/* section 04 style  */
+
+.col-1{
+    display: flex;
+    flex-wrap: wrap ;   
+}
+.row-1{
+    flex-basis: 50%;
+}
+.row-1:nth-child(1){
+    text-align: left;
+    margin: auto;
+    padding-left: 5%;
+}
+.row-1 img{
+    width: 100%;
+}
+.row-1 h1{
+    font-size: 15px;
+    font-weight: 300;
+    color: gray;
+}
+.row-1 h2{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 50px;
+    font-variant-caps: all-petite-caps;
+}
+.row-1 p{
+    font-size: 15px;
+    font-weight: 300;
+    max-width: 600px;
+    color: rgb(169, 168, 168);
+}
+.row-1 button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #ffff;
+    width: 150px;
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 400;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.row-1 button:hover{
+    transform: translateX(10px);
+}
+.row-1 button:hover .fa-solid{
+    left: 0px;
+    opacity: 1;
+
+}
+.fa-solid{
+    color: #000;
+    position: relative;
+    left: -60px;
+    opacity: 0;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+.row-1 a{
+    color: #000;
+}
+
+/* section 05 style  */
+
+.s-4{
+    width: 100%;
+    height: 60vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.528), rgba(0, 0, 0, 0.357)), url(img/06.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.s-4 p{
+    font-size: 15px;
+    width: 450px;
+    position: absolute;
+    top: 100px;
+    left: 20px;
 }
