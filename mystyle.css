@@ -13,6 +13,14 @@
 body{
     background-color: black;
 }
+::-webkit-scrollbar{
+    background-color: black;
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(82, 82, 82);
+    border-radius: 5px;
+}
 
 .main{
     width: 100%;
@@ -94,6 +102,7 @@ body{
     position: absolute;
     bottom: 30px;
     left: 30px;
+    transition: 1s;
 
 }
 .text button{
@@ -119,9 +128,35 @@ body{
 }
 .card:hover p{
     opacity: 1;
-    height: 70px;
+    height: 80px;
     
 }
 .text button:hover{
     transform: translateX(10px);
+}
+
+.fa-solid{
+    color: #000;
+    position: relative;
+    left: -60px;
+    opacity: 0;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+
+.text button:hover .fa-solid{
+    display: inline-block;
+    left: 0px;
+    opacity: 1;
+
+}
+
+/* section 03 style  */
+
+.s-3{
+    width: 100%;
+    height: 40vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.528), rgba(0, 0, 0, 0.357)), url(img/01.jpg);
+    background-position: center;
+    background-size: cover;
 }
