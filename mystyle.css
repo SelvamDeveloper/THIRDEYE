@@ -34,11 +34,19 @@ body{
     justify-content: space-between;
     padding: 50px;
 }
+.logo img{
+    width: 200px;
+}
 .nav ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
 }
 .nav ul li{
     padding: 0 10px;
+    font-weight: 400;
+    font-size: 20px;
 }
 .contant{
     padding: 0 5%;
