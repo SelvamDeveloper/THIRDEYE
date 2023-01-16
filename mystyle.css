@@ -57,3 +57,30 @@ body{
     margin: 0 auto;
     color: rgb(169, 168, 168);
 }
+
+/* card section  */
+
+.flex{
+    width: 100%;
+    display: grid;
+    justify-content: space-evenly;
+    padding: 10%;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-gap: 20px;
+}
+.card{
+    width: 100%;
+    position: relative;
+    text-align: left;
+    height: 600px;
+    padding: 10px;
+    background-image: url(img/mainbg.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.text{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
