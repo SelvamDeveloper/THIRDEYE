@@ -33,9 +33,27 @@ body{
     padding: 0 10px;
 }
 .contant{
-    max-width: 600px;
     padding: 0 5%;
+    bottom: -500px;
     text-align: center;
     margin: 0 auto;
     position: relative;
+}
+.contant h1{
+    font-size: 15px;
+    font-weight: 300;
+    color: gray;
+}
+.contant h2{
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 80px;
+    font-variant-caps: all-petite-caps;
+}
+.contant p{
+    font-size: 13px;
+    font-weight: 300;
+    max-width: 600px;
+    margin: 0 auto;
+    color: rgb(169, 168, 168);
 }
