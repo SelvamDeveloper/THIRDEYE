@@ -65,7 +65,7 @@ body{
     display: grid;
     justify-content: space-evenly;
     padding: 10%;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
     grid-gap: 20px;
 }
 .card{
@@ -74,23 +74,44 @@ body{
     text-align: left;
     height: 600px;
     padding: 10px;
-    background-image: url(img/BOX.svg   );
+    background-image: url(img/BOX.svg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
+    transition: 5s;
 }
 .text{
     position: absolute;
     bottom: 30px;
     left: 30px;
+
 }
 .text button{
     padding: 10px;
     border-radius: 10px;
-    color: black;
     background-color: #ffff;
     width: 150px;
     margin-top: 5px;
     font-size: 17px;
     font-weight: 400;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.text a{
+    color: black;
+
+}
+.text p{
+    width: 80%;
+    opacity: 0;
+    transition: 1s;
+    height: 0;
+}
+.card:hover p{
+    opacity: 1;
+    height: 70px;
+    
+}
+.text button:hover{
+    transform: translateX(10px);
 }
