@@ -23,6 +23,7 @@ body{
 }
 
 .main{
+    position: relative;
     width: 100%;
     height: 80vh;
     background-image: linear-gradient( rgba(0, 0, 0, 0.49), rgb(0, 0, 0)), url(img/01.jpg);
@@ -47,6 +48,10 @@ body{
     padding: 0 10px;
     font-weight: 400;
     font-size: 20px;
+}
+.menu-icon   {
+    width: 150px;
+    display: none;
 }
 .contant{
     padding: 0 5%;
@@ -257,4 +262,65 @@ body{
     position: absolute;
     top: 100px;
     left: 20px;
+}
+
+
+
+/* responsive desing style  */
+
+@media (max-width:725px) {
+    body{
+        overflow-x: hidden;
+
+    }
+    .flex{
+        padding: 5%;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }   
+
+    .nav{
+        padding: 25px;
+    }
+
+    .menu ul{
+        width:100%;
+        background:linear-gradient(#0A0C11,#0A0C11);
+        position:absolute;
+        top:77px;
+        right:0;
+        z-index:2;
+        text-align: center;
+    }
+    .menu ul{
+        display: block;
+        padding: 0;
+        font-size: 20px;
+
+    }
+    .menu ul li{
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    .menu ul li a{
+        color: white;
+
+    }
+    #menulist{
+        overflow:hidden;
+        transition:1s;
+    }
+    .menu-icon{
+        width: 50px;
+        display: flex;
+        cursor: pointer;
+    }
+    .logo img{
+        width: 88px;
+    }
+    nav{
+        padding: 20px 29px;
+        position: sticky;
+        top: 0;
+    }
+
 }
