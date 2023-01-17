@@ -54,11 +54,12 @@ body{
     display: none;
 }
 .contant{
+    width: 100%;
     padding: 0 5%;
-    bottom: -500px;
+    bottom: 0px;
     text-align: center;
     margin: 0 auto;
-    position: relative;
+    position: absolute;
 }
 .contant h1{
     font-size: 15px;
@@ -286,7 +287,7 @@ body{
         width:100%;
         background:linear-gradient(#0A0C11,#0A0C11);
         position:absolute;
-        top:77px;
+        top:0px;
         right:0;
         z-index:2;
         text-align: center;
@@ -314,13 +315,19 @@ body{
         display: flex;
         cursor: pointer;
     }
-    .logo img{
-        width: 88px;
+    .logo, .menu-icon{
+        z-index: 1111;
+
     }
-    nav{
+    .logo img{
+        width: 100px;
+    }
+    .nav{
         padding: 20px 29px;
-        position: sticky;
-        top: 0;
+    }
+    .nav ul{
+        margin: 0;
+        padding-top: 100px;
     }
 
 }
