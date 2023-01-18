@@ -228,7 +228,6 @@ body{
 
 .col-1{
     display: flex;
-    flex-wrap: wrap ;   
 }
 .row-1{
     flex-basis: 50%;
@@ -377,5 +376,69 @@ body{
     .nav ul{
         margin-top: 85px;
     }
+
+
+    .contant{
+        bottom: 90px;
+    }
+    .contant h1{
+        font-size: 13px;
+    }
+    .contant h2{
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .contant p{
+        font-size: 10px;
+    }
+
+
+    .text p{
+        width: 99%;
+        opacity: 0;
+        transition: 1s;
+        height: 0;
+        font-size: 13px;
+    }
+    .card:hover p{
+        opacity: 1;
+        height: 80px;
+        
+    }
+
+
+
+
+
+    .col-1{
+        flex-direction: column;
+    }
+    .row-1 h1{
+        font-size: 13px;
+    }
+    .row-1 h2{
+        font-size: 35px;
+    }
+    .row-1 p{
+        font-size: 13px;
+    }
+    .row-1:nth-child(1){
+        text-align: left;
+        margin: 0;
+        padding: 30% 5%;
+    }
+
+
+
+    .s-3 p{
+        width: 80%;
+        right: 45px;
+    }
+
+
+    .s-4 p{
+        width: 80%;
+    }
+    
 
 }
