@@ -312,6 +312,8 @@ body{
 
 @media (max-width:725px) {
 
+    /* main style  */
+
     #button {
         margin: 0px;
         bottom: 15px;
@@ -378,6 +380,8 @@ body{
     }
 
 
+    /* contant tex style  */
+
     .contant{
         bottom: 90px;
     }
@@ -392,6 +396,7 @@ body{
         font-size: 10px;
     }
 
+    /* card design style  */
 
     .text p{
         width: 99%;
@@ -407,7 +412,7 @@ body{
     }
 
 
-
+    /* image section 03 style  */
 
 
     .col-1{
@@ -429,12 +434,15 @@ body{
     }
 
 
+    /* image section 04 style  */
+
 
     .s-3 p{
         width: 80%;
         right: 45px;
     }
 
+    /* image section 05 style  */
 
     .s-4 p{
         width: 80%;
