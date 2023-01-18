@@ -22,6 +22,48 @@ body{
     border-radius: 5px;
 }
 
+/* button style  */
+
+#button {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: rgb(0, 0, 0);
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #button:hover::after{
+    color: rgb(255, 255, 255);
+  }
+  #button:active {
+    background-color: #555;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+
 .main{
     position: relative;
     width: 100%;
@@ -270,6 +312,12 @@ body{
 /* responsive desing style  */
 
 @media (max-width:725px) {
+
+    #button {
+        margin: 0px;
+        bottom: 15px;
+        right: 15px;
+      }
     body{
         overflow-x: hidden;
 
@@ -285,7 +333,7 @@ body{
 
     .menu ul{
         width:100%;
-        background:linear-gradient(#0A0C11,#0A0C11);
+        background-color: rgba(0, 0, 0, 0.488); 
         position:absolute;
         top:0px;
         right:0;
@@ -324,10 +372,10 @@ body{
     }
     .nav{
         padding: 20px 29px;
+        background-color: rgba(0, 0, 0, 0.488);
     }
     .nav ul{
-        margin: 0;
-        padding-top: 100px;
+        margin-top: 85px;
     }
 
 }
