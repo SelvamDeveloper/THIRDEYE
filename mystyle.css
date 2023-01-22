@@ -8,6 +8,7 @@
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
+
 }
 
 body{
@@ -310,15 +311,16 @@ body{
 
 .col-4{
     display: flex;
+    margin-top: 200px;
     justify-content: center;
 }
-.row-4:nth-child(1){
-    flex-basis: 45%;
-}
 .row-4:nth-child(2){
-    flex-basis: 20%;
+    flex-basis: 50%;
 }
 .row-4:nth-child(3){
+    flex-basis: 20%;
+}
+.row-4:nth-child(4){
     flex-basis: 20%;
 }
 .row-4 h2{
@@ -329,11 +331,21 @@ body{
 .row-4 li{
      padding: 5px 0;
 }
+.row-4 h1{
+    font-size: 30px;
+    width: 300px;
+    line-height: 30px;
+    font-weight: 600;
+}
 .row-4 p{
     width: 50%;
 }
-.row-4 .fa-solid{
-    color: #ffff;
+.row-4 .fa-brands{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    margin-top: 20px;
+    padding-right: 20px;
+    transition: 0.5s;
 }
 
 /* responsive desing style  */
