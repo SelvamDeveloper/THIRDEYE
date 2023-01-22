@@ -326,8 +326,15 @@ body{
     font-weight: 500;
     text-transform: uppercase;
 }
-
-
+.row-4 li{
+     padding: 5px 0;
+}
+.row-4 p{
+    width: 50%;
+}
+.row-4 .fa-solid{
+    color: #ffff;
+}
 
 /* responsive desing style  */
 
