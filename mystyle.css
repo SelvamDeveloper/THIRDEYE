@@ -411,7 +411,7 @@ hr{
 }
 .copy span{
     text-decoration: underline;
-    color: #000;
+    color: rgb(255, 255, 255);
 }
 
 /* responsive desing style  */
