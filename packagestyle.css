@@ -122,3 +122,42 @@ body{
     margin: 0 auto;
     color: rgb(169, 168, 168);
 }
+
+.package {
+    margin-top: 150px;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+.package li{
+    list-style: disc;
+    padding: 20px 0;
+}
+.package h4{
+    position: relative;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.package h4::before{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    height: 3px;
+    width: 50%;
+    background-color:   rgb(255, 217, 1) ;
+}
+.package span{
+    color: rgb(255, 217, 1);
+}
+
+hr{
+    height: 1px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #ffff;
+}
