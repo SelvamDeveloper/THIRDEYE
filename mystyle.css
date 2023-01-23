@@ -307,21 +307,38 @@ body{
     left: 20px;
 }
 
+/* conatct  */
+.contact{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact img{
+    position: absolute;
+    width: 500px;
+    right: 0;
+    top: -193px;
+    z-index: -111;  
+}
+
 /* footer style  */
 
 .col-4{
     display: flex;
-    margin-top: 200px;
-    justify-content: center;
+    width: 80%;
+    margin: 200px auto 0 auto;
 }
 .row-4:nth-child(2){
     flex-basis: 50%;
 }
 .row-4:nth-child(3){
     flex-basis: 20%;
+    padding-left: 80px;
 }
 .row-4:nth-child(4){
     flex-basis: 20%;
+    padding-left: 80px;
 }
 .row-4 h2{
     font-size: 20px;
@@ -346,6 +363,23 @@ body{
     margin-top: 20px;
     padding-right: 20px;
     transition: 0.5s;
+}
+hr{
+    height: 1px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: #ffff;
+}
+.copy{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 10px auto;
+}
+.copy h1{
+    font-size: 15px;
+    font-weight: 400;
+
 }
 
 /* responsive desing style  */
