@@ -308,11 +308,15 @@ body{
 }
 
 /* conatct  */
-.contact{
-    position: relative;
+.contacts{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center;  
+    align-items: center;  
+}
+.contact{
+    margin-top: 100px;
+    position: relative;
 }
 .contact img{
     position: absolute;
@@ -320,6 +324,27 @@ body{
     right: 0;
     top: -193px;
     z-index: -111;  
+}
+.contact h1{
+    font-weight: 600;
+}
+.contact p{
+    width: 400px;
+    text-align: center;
+    font-size: 15px;
+}
+.contact button{
+    background-color: #ffffff;
+    width: 150px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 4px;
+    
+}
+.contact a{
+    color: #000;
+    font-size: 15px;
 }
 
 /* footer style  */

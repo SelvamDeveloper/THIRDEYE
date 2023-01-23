@@ -123,6 +123,28 @@ body{
     color: rgb(169, 168, 168);
 }
 
+/* gallary style  */
+
+.gallary{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px,    1fr));
+    grid-auto-flow:dense ;
+    grid-auto-rows: 250px;
+}
+.gallary img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.vertical{
+    grid-column: span 3;
+    grid-row: span 2;
+}
+
+
 /* responsive desing style  */
 
 @media (max-width:725px) {
@@ -210,4 +232,4 @@ body{
     .contant p{
         font-size: 10px;
     }
-    
+}
