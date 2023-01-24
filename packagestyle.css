@@ -182,3 +182,128 @@ hr{
     width: 80%;
     background-color: #ffff;
 }
+
+
+
+/* responsive desing style  */
+
+@media (max-width:725px) {
+
+    /* main style  */
+
+    #button {
+        margin: 0px;
+        bottom: 15px;
+        right: 15px;
+      }
+    body{
+        overflow-x: hidden;
+
+    }
+    .flex{
+        padding: 5%;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }   
+
+    .nav{
+        padding: 25px;
+    }
+
+    .menu ul{
+        width:100%;
+        background-color: rgba(0, 0, 0, 0.488); 
+        position:absolute;
+        top:0px;
+        right:0;
+        z-index:2;
+        text-align: center;
+    }
+    .menu ul{
+        display: block;
+        padding: 0;
+        font-size: 20px;
+
+    }
+    .menu ul li{
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    .menu ul li a{
+        color: white;
+
+    }
+    #menulist{
+        overflow:hidden;
+        transition:1s;
+    }
+    .menu-icon{
+        width: 50px;
+        display: flex;
+        cursor: pointer;
+    }
+    .logo, .menu-icon{
+        z-index: 1111;
+
+    }
+    .logo img{
+        width: 100px;
+    }
+    .nav{
+        padding: 20px 29px;
+        background-color: rgba(0, 0, 0, 0.488);
+    }
+    .nav ul{
+        margin-top: 85px;
+    }
+
+
+    .drop{
+        position: absolute;
+        text-align: center;
+        width: 300px;
+        background-color: rgb(0, 0, 0);
+        padding: 10px;
+        border-radius: 10px;
+        z-index: 1111;
+        top: 450px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .drop a{
+        margin:10px 0;
+    }
+    .links{
+        display: grid;
+    }
+
+    /* contant tex style  */
+
+    .contant{
+        bottom: 90px;
+    }
+    .contant h1{
+        font-size: 13px;
+    }
+    .contant h2{
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .contant p{
+        font-size: 10px;
+    }
+
+    /* package  */
+
+    .package li{
+        list-style: disc;
+        margin-left : 40px;
+        font-size: 11px;
+        padding: 20px 0;
+    }
+    .package h4{
+        position: relative;
+        font-size: 17px;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
