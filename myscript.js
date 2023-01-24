@@ -56,3 +56,19 @@ function togglemenu(){
 //       window.event.returnValue = false;
 //     });
 //   }
+
+
+
+var Drop=document.getElementById("drop");
+Drop.style.display="none";
+function drop(){
+        if(Drop.style.display =="none")
+            {
+            Drop.style.display="block";
+            }
+        else
+            {
+                Drop.style.display="none";
+            }
+
+}

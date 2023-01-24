@@ -8,6 +8,7 @@
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 
 }
 
@@ -80,15 +81,18 @@ body{
 }
 .logo img{
     width: 200px;
+    cursor: pointer;
 }
+
 .nav ul {
     display: flex;
+
     justify-content: center;
     align-items: center;
     margin-top: 30px;
 }
 .nav ul li{
-    transition: 0.5s;
+    transition: 1s;
     padding: 0 10px;
     font-weight: 400;
     font-size: 20px;
@@ -98,6 +102,24 @@ body{
     display: none;
 }
 
+.drop{
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.793);
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 1111;
+    top: 250px;
+    right: -93px;
+    transform: translate(-50%, -50%);
+}
+.drop a{
+    margin:10px 0;
+}
+.links{
+    display: grid;
+}
 
 .contant{
     width: 100%;
@@ -362,7 +384,7 @@ body{
 }
 .row-4:nth-child(3){
     flex-basis: 20%;
-    padding-left: 80px;
+    padding-left: 0px;
 }
 .row-4:nth-child(4){
     flex-basis: 20%;
@@ -372,9 +394,11 @@ body{
     font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
+    margin-bottom:10px ;
 }
 .row-4 li{
      padding: 5px 0;
+     transition: 0.5s;
 }
 .row-4 h1{
     font-size: 30px;
@@ -391,6 +415,9 @@ body{
     margin-top: 20px;
     padding-right: 20px;
     transition: 0.5s;
+}
+.row-4 li:hover {
+    transform: translateX(10px);
 }
 hr{
     height: 1px;
@@ -552,6 +579,12 @@ hr{
 
     .s-4 p{
         width: 80%;
+    }
+
+    .contact p{
+        width: 30   0px;
+        text-align: center;
+        font-size: 15px;
     }
     
     /* footer  */

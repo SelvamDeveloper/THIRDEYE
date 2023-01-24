@@ -96,6 +96,27 @@ body{
     width: 150px;
     display: none;
 }
+
+
+.drop{
+    position: absolute;
+    text-align: center;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.793);
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 1111;
+    top: 250px;
+    right: -93px;
+    transform: translate(-50%, -50%);
+}
+.drop a{
+    margin:10px 0;
+}
+.links{
+    display: grid;
+}
+
 .contant{
     width: 100%;
     padding: 0 5%;
