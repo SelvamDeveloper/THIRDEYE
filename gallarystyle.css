@@ -69,7 +69,7 @@ body{
     position: relative;
     width: 100%;
     height: 80vh;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.49), rgb(0, 0, 0)), url(img/01.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0.49), rgb(0, 0, 0)), url(img/landing/005.jfif);
     background-position: center;
     background-size: cover;
 }
