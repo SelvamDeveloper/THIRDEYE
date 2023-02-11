@@ -208,7 +208,7 @@ body{
 }
 .card:hover p{
     opacity: 1;
-    height: 80px;
+    height: 9em;
     
 }
 .text button:hover{
