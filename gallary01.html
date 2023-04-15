@@ -9,6 +9,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/1df1b0320f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="lightbox.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     </head>
     <body>
@@ -33,13 +34,14 @@
                             <a href=""><li>About</li></a>
                         </ul>
                         <div class="drop" id="drop">
+                            <div class="sharp"></div>
                             <div class="links">
-                                <a href="package01.html">Goldern package</a>
-                                <a href="package02.html">platinam package</a>
-                                <a href="package03.html">Goldern package</a>
-                                <a href="package04.html">Goldern package</a>
-                                <a href="package05.html">Goldern package</a>
-                                <a href="package06.html">Goldern package</a>
+                                <a href="package01.html">GOLD WEDDING PACKAGE</a>
+                                <a href="package02.html">PLATINUM PACKAGE</a>
+                                <a href="package03.html">PLATINUM PACKAGE -2</a>
+                                <a href="package04.html">PREMIUM WEDDING PACKAGE-1</a>
+                                <a href="package05.html">PREMIUM WEDDING PACKAGE-2</a>
+                                <a href="package06.html">PREMIUM WEDDING PACKAGE-3</a>
                             </div>
                         </div>
                     </div>
@@ -58,46 +60,83 @@
 
             <div class="gallary">
                 <div class="verti">
-                    <img src="img/01.jpg">
+                    <a href="img/01.jpg" data-lightbox ="models" data-title ="Image-1">
+                        <img src="img/01.jpg">
+                    </a>
+                    
                 </div>
                 <div class="hori">
-                    <img src="img/birthday/01.jpg">
+                    <a href="img/birthday/01.jpg" data-lightbox ="models" data-title ="Image-2">
+                        <img src="img/birthday/01.jpg">
+                    </a>
+                    
                 </div>
                 <div class="sq">
-                    <img src="img/purpaty/06.jpg">
+                    <a href="img/purpaty/06.jpg" data-lightbox ="models" data-title ="Image-3">
+                        <img src="img/purpaty/06.jpg">
+                    </a>
+                    
                 </div>
                 <div class="hori">
-                    <img src="img/wedding/03.jpg">
+                    <a href="img/wedding/03.jpg" data-lightbox ="models" data-title ="Image-4">
+                        <img src="img/wedding/03.jpg">
+                    </a>
+                    
                 </div>
                 <div class="sq">
-                    <img src="img/wedding/05.jpg">
+                    <a href="img/wedding/05.jpg" data-lightbox ="models" data-title ="Image-5">
+                        <img src="img/wedding/05.jpg">
+                    </a>
+                    
                 </div>
                 <div class="verti">
-                    <img src="img/wedding/06.jpg">
+                    <a href="img/wedding/06.jpg" data-lightbox ="models" data-title ="Image-6">
+                        <img src="img/wedding/06.jpg">
+                    </a>
+                    
                 </div>
                 <div class="sq">
-                    <img src="img/birthday/02.jpg">
+                    <a href="img/birthday/02.jpg" data-lightbox ="models" data-title ="Image-7">
+                        <img src="img/birthday/02.jpg">
+                    </a>
+                    
                 </div>
                 <div class="hori">
-                    <img src="img/birthday/03.jpg">
+                    <a href="img/birthday/03.jpg" data-lightbox ="models" data-title ="Image-8">
+                        <img src="img/birthday/03.jpg">
+                    </a>
+                    
                 </div>
                 <div class="sq">
-                    <img src="img/birthday/06.jpg">
+                    <a href="img/birthday/06.jpg" data-lightbox ="models" data-title ="Image-9">
+                        <img src="img/birthday/06.jpg">
+                    </a>
+                    
                 </div>
                 <div class="sq">
-                    <img src="img/birthday/07.jpg">
+                    <a href="img/birthday/07.jpg" data-lightbox ="models" data-title ="Image-10">
+                        <img src="img/birthday/07.jpg">
+                    </a>
+                    
                 </div>
                 <div class="sq">
-                    <img src="img/wedding/08.jpg">
+                    <a href="img/wedding/08.jpg" data-lightbox ="models" data-title ="Image-11">
+                        <img src="img/wedding/08.jpg">
+                    </a>
+                    
                 </div>
             </div>
 
-            
+            <div id="myModal" class="modal">
+                <span class="close">&times;</span>
+                <img class="modal-content" id="img01">
+            </div>
         </div>
 
  <!-- script -->
 
         <script src="myscript.js"></script>
-
+        <script src="lightbox-plus-jquery.min.js"></script>
+        
     </body>
 </html>

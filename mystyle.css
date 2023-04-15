@@ -8,6 +8,7 @@
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    cursor: url(img/cur.gif), auto;
 }
 
 body{
@@ -104,11 +105,11 @@ body{
     position: absolute;
     text-align: center;
     width: 300px;
-    background-color: rgba(0, 0, 0, 0.793);
+    background-color: rgb(0, 0, 0);
     padding: 10px;
     border-radius: 10px;
     z-index: 1111;
-    top: 250px;
+    top: 257px;
     right: -93px;
     transform: translate(-50%, -50%);
 }
@@ -118,7 +119,16 @@ body{
 .links{
     display: grid;
 }
-
+.sharp{
+    position: relative;
+    right: -50%;
+    top: -22.5px;
+    width: 27px;
+    height: 10px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 13px solid rgba(0, 0, 0, 0.793);
+}
 .contant{
     width: 100%;
     padding: 0 5%;
@@ -204,11 +214,13 @@ body{
     width: 80%;
     opacity: 0;
     transition: 1s;
-    height: 0;
+    height: 0%;
+    max-height: 0;
 }
 .card:hover p{
     opacity: 1;
-    height: 9em;
+    height: 100%;
+    max-height:100px ;
     
 }
 .text button:hover{
@@ -522,7 +534,7 @@ hr{
         padding: 10px;
         border-radius: 10px;
         z-index: 1111;
-        top: 450px;
+        top: 458px;
         left: 50%;
         transform: translate(-50%, -50%);
     }
