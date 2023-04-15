@@ -92,7 +92,10 @@ body{
     font-weight: 400;
     font-size: 20px;
     position: relative;
+    cursor: pointer;
 }
+
+
 .menu-icon   {
     width: 150px;
     display: none;
@@ -115,6 +118,10 @@ body{
 }
 .links{
     display: grid;
+}
+.links a{
+    cursor: pointer;
+    text-transform: lowercase;
 }
 .sharp{
     position: relative;
@@ -263,7 +270,7 @@ hr{
         background-color: rgba(0, 0, 0, 0.488);
     }
     .nav ul{
-        margin-top: 85px;
+        margin-top: 90px;
     }
 
 

@@ -10,6 +10,9 @@
     scroll-behavior: smooth;
 
 }
+a{
+    cursor: pointer;
+}
 
 /* screen  */
 
@@ -172,6 +175,7 @@ body{
     padding: 0 10px;
     font-weight: 400;
     font-size: 20px;
+    cursor: pointer;
 }
 .menu-icon   {
     width: 150px;
@@ -196,6 +200,10 @@ body{
 }
 .links{
     display: grid;
+}
+.links a{
+    cursor: pointer;
+    text-transform: lowercase;
 }
 .sharp{
     position: relative;
@@ -256,7 +264,6 @@ body{
     grid-row: span 2;
 }
 .hori{
-    grid-column: span 2;
     grid-row: span 2;
 }
 
@@ -329,7 +336,7 @@ body{
         background-color: rgba(0, 0, 0, 0.488);
     }
     .nav ul{
-        margin-top: 85px;
+        margin-top: 90px;
     }
 
 
