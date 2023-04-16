@@ -177,20 +177,20 @@ body{
     text-align: left;
     height: 600px;
     padding: 10px;
-    background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.574)), url(img/birthday/04.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.574)), url(img/wedding/07.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
     transition: 3s;
 }
 .card:nth-child(2){
-    background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.574)), url(img/wedding/07.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.574)), url(img/birthday/02.jpg);
 }
 .card:nth-child(3){
-    background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.574)), url(img/wedding/10.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.574)), url(img/purpaty/06.jpg);
 }
 .card:nth-child(4){
-    background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.574)), url(img/birthday/03.jpg);
+    background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.574)), url(img/wedding/10.jpg);
 }
 
 .text{
@@ -528,7 +528,7 @@ hr{
         background-color: rgba(0, 0, 0, 0.488);
     }
     .nav ul{
-        margin-top: 90px;
+        margin-top: 95px;
     }
 
 
@@ -578,7 +578,7 @@ hr{
     }
     .card:hover p{
         opacity: 1;
-        height: 80px;
+        height: 100%;
         
     }
 
